@@ -1,0 +1,430 @@
+{
+  "Acne and Rosacea Photos": {
+    "display_name": "Acne / Rosacea",
+    "category": "Inflammatory skin condition",
+    "description": "A class containing images associated with acne and rosacea-like facial conditions.",
+    "common_features": [
+      "Acne may involve pimples, blackheads, whiteheads, or deeper inflammatory lesions.",
+      "Rosacea may cause persistent facial redness, flushing, and acne-like breakouts."
+    ],
+    "general_care": [
+      "Use gentle skin care and avoid unnecessary irritation.",
+      "Avoid picking or squeezing lesions.",
+      "Identify and avoid personal triggers when relevant."
+    ],
+    "seek_care": [
+      "Persistent or worsening symptoms",
+      "Deep, painful, or scarring lesions",
+      "Uncertainty about whether the condition is acne, rosacea, or another disorder"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/acne/really-acne/acne-rosacea"
+  },
+  "Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions": {
+    "display_name": "Actinic Keratosis / Malignant Skin Lesions",
+    "category": "Precancerous or malignant skin lesions",
+    "description": "This dataset category combines actinic keratoses, basal cell carcinoma, and other potentially malignant lesions.",
+    "common_features": [
+      "Actinic keratosis may appear as a rough or scaly area on sun-damaged skin.",
+      "Basal cell carcinoma can appear as a shiny or raised growth, scaly patch, or sore that does not heal."
+    ],
+    "general_care": [
+      "Protect skin from excessive ultraviolet exposure.",
+      "Monitor persistent, changing, bleeding, or non-healing lesions.",
+      "Avoid attempting to remove suspicious lesions yourself."
+    ],
+    "seek_care": [
+      "A new or changing growth",
+      "A lesion that repeatedly bleeds or crusts",
+      "A sore that does not heal",
+      "A suspicious or persistent rough/scaly lesion"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/skin-cancer"
+  },
+  "Atopic Dermatitis Photos": {
+    "display_name": "Atopic Dermatitis",
+    "category": "Eczema / inflammatory skin condition",
+    "description": "Atopic dermatitis is a type of eczema commonly associated with itchy, dry and inflamed skin.",
+    "common_features": [
+      "Itching",
+      "Dry or scaly skin",
+      "Inflamed rash",
+      "Scratch marks",
+      "Sometimes oozing or crusting"
+    ],
+    "general_care": [
+      "Use gentle skin care.",
+      "Avoid known irritants or personal triggers.",
+      "Keep the skin adequately moisturized."
+    ],
+    "seek_care": [
+      "Persistent or worsening rash",
+      "Significant sleep disruption from itching",
+      "Painful, oozing, crusted, or infected-looking areas"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/eczema/types/atopic-dermatitis"
+  },
+  "Cellulitis Impetigo and other Bacterial Infections": {
+    "display_name": "Bacterial Skin Infection",
+    "category": "Infectious",
+    "description": "A dataset category containing images of cellulitis, impetigo and other bacterial skin infections.",
+    "common_features": [
+      "Redness or inflammation",
+      "Swelling",
+      "Tenderness or pain",
+      "Impetigo may produce pustules or crusted lesions"
+    ],
+    "general_care": [
+      "Keep affected areas clean.",
+      "Avoid sharing towels or personal items when an infectious condition is suspected.",
+      "Seek professional evaluation rather than relying on an image classification."
+    ],
+    "seek_care": [
+      "Rapidly spreading redness or swelling",
+      "Increasing pain or warmth",
+      "Fever or feeling systemically unwell",
+      "Pus or significant drainage"
+    ],
+    "source": "CDC",
+    "source_url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/impetigo.html"
+  },
+  "Eczema Photos": {
+    "display_name": "Eczema",
+    "category": "Inflammatory skin condition",
+    "description": "Eczema refers to a group of conditions that can cause itchy, dry, inflamed skin.",
+    "common_features": [
+      "Itching",
+      "Dryness",
+      "Scaling",
+      "Inflammation",
+      "Cracking or irritation"
+    ],
+    "general_care": [
+      "Use gentle skin care.",
+      "Avoid known irritants.",
+      "Maintain skin hydration."
+    ],
+    "seek_care": [
+      "Persistent symptoms",
+      "Severe itching",
+      "Painful or infected-looking skin",
+      "Symptoms that interfere with daily activities"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/eczema"
+  },
+  "Exanthems and Drug Eruptions": {
+    "display_name": "Exanthem / Drug Eruption",
+    "category": "Rash / possible medication reaction",
+    "description": "This category contains generalized rashes and eruptions that may be associated with infections or medication reactions.",
+    "common_features": [
+      "Widespread rash",
+      "Red or discolored patches",
+      "Possible itching",
+      "Distribution may vary depending on the cause"
+    ],
+    "general_care": [
+      "Review recent medication or exposure history with a healthcare professional.",
+      "Avoid assuming the cause from an image alone."
+    ],
+    "seek_care": [
+      "Rapidly spreading rash",
+      "Fever or significant illness",
+      "Blistering or skin peeling",
+      "Mouth, eye, or genital involvement",
+      "Facial swelling or breathing difficulty"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases"
+  },
+  "Herpes HPV and other STDs Photos": {
+    "display_name": "Viral / Sexually Transmitted Skin Conditions",
+    "category": "Infectious",
+    "description": "A dataset category containing images associated with herpes, HPV and other sexually transmitted infections.",
+    "common_features": [
+      "Lesions may vary substantially depending on the infection.",
+      "Some viral infections may cause blisters, ulcers, papules, or warty growths."
+    ],
+    "general_care": [
+      "Avoid sexual contact with active or unexplained lesions until professionally evaluated.",
+      "Do not share personal items that may contact lesions."
+    ],
+    "seek_care": [
+      "New unexplained genital lesions",
+      "Painful blisters or ulcers",
+      "Recurrent lesions",
+      "Concern about possible sexually transmitted infection"
+    ],
+    "source": "CDC",
+    "source_url": "https://www.cdc.gov/"
+  },
+  "Light Diseases and Disorders of Pigmentation": {
+    "display_name": "Pigmentation Disorder",
+    "category": "Pigmentary disorder",
+    "description": "A broad dataset category containing disorders involving altered skin pigmentation.",
+    "common_features": [
+      "Areas of lighter or darker pigmentation",
+      "Changes may be localized or more widespread",
+      "Appearance varies considerably between conditions"
+    ],
+    "general_care": [
+      "Protect affected skin from excessive ultraviolet exposure.",
+      "Avoid irritating products when the skin is sensitive.",
+      "Monitor new or changing pigmented areas."
+    ],
+    "seek_care": [
+      "Rapidly changing pigmentation",
+      "New unexplained lesions",
+      "Pigmentation associated with other symptoms"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases"
+  },
+  "Lupus and other Connective Tissue diseases": {
+    "display_name": "Lupus / Connective Tissue Disorder",
+    "category": "Autoimmune / connective tissue disorder",
+    "description": "Lupus is a chronic autoimmune disease that can affect the skin and multiple organ systems.",
+    "common_features": [
+      "Some forms can cause facial or other skin rashes.",
+      "Sun sensitivity may occur.",
+      "Other systemic symptoms can occur depending on the condition."
+    ],
+    "general_care": [
+      "Protect skin from excessive sun exposure.",
+      "Seek professional evaluation for persistent or unexplained rashes.",
+      "Do not interpret an image classification as confirmation of lupus."
+    ],
+    "seek_care": [
+      "Persistent unexplained rash",
+      "Joint swelling or pain with skin symptoms",
+      "Unexplained fever or marked fatigue",
+      "Breathing or chest symptoms",
+      "Other systemic symptoms"
+    ],
+    "source": "NIAMS",
+    "source_url": "https://www.niams.nih.gov/health-topics/lupus"
+  },
+  "Melanoma Skin Cancer Nevi and Moles": {
+    "display_name": "Melanoma / Nevi / Moles",
+    "category": "Pigmented lesion / skin cancer",
+    "description": "This dataset category contains images associated with melanoma, nevi and moles.",
+    "common_features": [
+      "A new or changing pigmented spot can be concerning.",
+      "Possible warning signs include asymmetry, irregular borders, varied color, increasing size, or change over time."
+    ],
+    "general_care": [
+      "Perform regular skin checks.",
+      "Protect skin from excessive ultraviolet exposure.",
+      "Monitor changing lesions."
+    ],
+    "seek_care": [
+      "A new or changing mole",
+      "Bleeding or persistent crusting",
+      "Rapid growth",
+      "A lesion that looks different from surrounding moles"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/skin-cancer/types/common/melanoma/overview"
+  },
+  "Poison Ivy Photos and other Contact Dermatitis": {
+    "display_name": "Contact Dermatitis",
+    "category": "Inflammatory / allergic skin reaction",
+    "description": "Contact dermatitis occurs when the skin reacts to an irritant or allergen.",
+    "common_features": [
+      "Itching",
+      "Red or discolored rash",
+      "Burning or stinging",
+      "Swelling",
+      "Blisters or oozing may occur"
+    ],
+    "general_care": [
+      "Identify and avoid the suspected trigger.",
+      "Use gentle skin care.",
+      "Avoid further exposure to known irritants."
+    ],
+    "seek_care": [
+      "Severe or widespread reaction",
+      "Significant facial swelling",
+      "Persistent symptoms",
+      "Unclear trigger"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/eczema/types/contact-dermatitis"
+  },
+  "Psoriasis pictures Lichen Planus and related diseases": {
+    "display_name": "Psoriasis / Lichen Planus and Related Disorders",
+    "category": "Inflammatory skin condition",
+    "description": "A dataset category containing psoriasis, lichen planus and related inflammatory disorders.",
+    "common_features": [
+      "Psoriasis commonly produces raised, scaly plaques.",
+      "Appearance and distribution vary by subtype.",
+      "Lichen planus can produce different types of inflammatory lesions."
+    ],
+    "general_care": [
+      "Use gentle skin care.",
+      "Identify personal triggers where applicable.",
+      "Seek professional evaluation for persistent lesions."
+    ],
+    "seek_care": [
+      "Persistent or extensive lesions",
+      "Painful or rapidly worsening skin changes",
+      "Associated joint symptoms",
+      "Uncertainty about the diagnosis"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/psoriasis"
+  },
+  "Seborrheic Keratoses and other Benign Tumors": {
+    "display_name": "Seborrheic Keratoses / Benign Growths",
+    "category": "Benign skin growth",
+    "description": "Seborrheic keratoses are common non-cancerous skin growths that can resemble warts or other lesions.",
+    "common_features": [
+      "Tan, brown, or darker growths",
+      "May have a warty or rough surface",
+      "Often appear as multiple growths"
+    ],
+    "general_care": [
+      "Avoid attempting to remove growths yourself.",
+      "Monitor for changes."
+    ],
+    "seek_care": [
+      "Rapid growth",
+      "Bleeding",
+      "Marked color change",
+      "A growth that looks substantially different from typical lesions"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/a-z/seborrheic-keratoses-overview"
+  },
+  "Systemic Disease": {
+    "display_name": "Systemic Disease–Associated Skin Findings",
+    "category": "Systemic disease manifestation",
+    "description": "A broad dataset category containing skin findings associated with systemic diseases.",
+    "common_features": [
+      "Skin findings vary substantially depending on the underlying systemic condition.",
+      "Image appearance alone may not identify the underlying disease."
+    ],
+    "general_care": [
+      "Consider the complete clinical history rather than relying on an image.",
+      "Seek professional evaluation for persistent unexplained skin changes."
+    ],
+    "seek_care": [
+      "Persistent unexplained skin findings",
+      "Skin findings accompanied by systemic symptoms",
+      "Rapidly worsening symptoms"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases"
+  },
+  "Tinea Ringworm Candidiasis and other Fungal Infections": {
+    "display_name": "Fungal Skin Infection",
+    "category": "Infectious",
+    "description": "This category contains fungal infections including ringworm and candidiasis.",
+    "common_features": [
+      "Ringworm commonly causes itchy, scaly, ring-shaped rashes.",
+      "Appearance varies depending on the body site and fungal infection."
+    ],
+    "general_care": [
+      "Keep affected areas clean and dry.",
+      "Avoid sharing towels and other personal items.",
+      "Seek appropriate professional guidance for suspected fungal infection."
+    ],
+    "seek_care": [
+      "Persistent or spreading rash",
+      "Scalp or nail involvement",
+      "Failure to improve",
+      "Uncertainty about whether a rash is fungal"
+    ],
+    "source": "CDC / American Academy of Dermatology",
+    "source_url": "https://www.cdc.gov/ringworm/"
+  },
+  "Urticaria Hives": {
+    "display_name": "Urticaria / Hives",
+    "category": "Inflammatory skin reaction",
+    "description": "Urticaria produces raised, itchy areas of skin that can appear and change over time.",
+    "common_features": [
+      "Raised welts",
+      "Itching",
+      "Lesions may appear and disappear or move to different areas"
+    ],
+    "general_care": [
+      "Consider recent exposures or possible triggers.",
+      "Avoid known personal triggers when identified."
+    ],
+    "seek_care": [
+      "Persistent or recurrent hives",
+      "Swelling involving the lips, tongue, or throat",
+      "Difficulty breathing",
+      "Dizziness or fainting"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases/a-z/hives"
+  },
+  "Vascular Tumors": {
+    "display_name": "Vascular Tumor / Vascular Lesion",
+    "category": "Vascular skin lesion",
+    "description": "This dataset category contains vascular tumors and related vascular lesions.",
+    "common_features": [
+      "Lesions may appear red, purple, blue, or otherwise vascular in appearance.",
+      "Appearance varies substantially between vascular lesions."
+    ],
+    "general_care": [
+      "Avoid trauma to lesions that bleed easily.",
+      "Seek professional evaluation for new or changing vascular lesions."
+    ],
+    "seek_care": [
+      "Rapid growth",
+      "Repeated bleeding",
+      "Painful or ulcerated lesion",
+      "A new unexplained vascular-appearing growth"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases"
+  },
+  "Vasculitis Photos": {
+    "display_name": "Vasculitis",
+    "category": "Inflammatory blood-vessel disorder",
+    "description": "Vasculitis refers to inflammation of blood vessels and can have skin manifestations.",
+    "common_features": [
+      "Skin findings vary depending on the type and severity.",
+      "Some forms may produce purplish or non-blanching spots."
+    ],
+    "general_care": [
+      "Unexplained purpuric or rapidly changing skin findings warrant professional evaluation.",
+      "Do not rely on image classification to determine the underlying cause."
+    ],
+    "seek_care": [
+      "Rapidly spreading skin findings",
+      "Painful lesions",
+      "Fever or systemic symptoms",
+      "Abdominal, joint, kidney, or neurological symptoms"
+    ],
+    "source": "NIAMS / medical clinical guidance",
+    "source_url": "https://www.niams.nih.gov/"
+  },
+  "Warts Molluscum and other Viral Infections": {
+    "display_name": "Viral Skin Infection",
+    "category": "Infectious",
+    "description": "This dataset category contains warts, molluscum and other viral skin infections.",
+    "common_features": [
+      "Warts may produce rough or raised growths.",
+      "Molluscum commonly produces small raised lesions.",
+      "Appearance varies by viral infection."
+    ],
+    "general_care": [
+      "Avoid picking or scratching lesions.",
+      "Avoid sharing personal items that contact affected skin.",
+      "Seek professional guidance when lesions are persistent or uncertain."
+    ],
+    "seek_care": [
+      "Rapidly spreading lesions",
+      "Painful or bleeding lesions",
+      "Genital lesions",
+      "Persistent unexplained growths"
+    ],
+    "source": "American Academy of Dermatology",
+    "source_url": "https://www.aad.org/public/diseases"
+  }
+}

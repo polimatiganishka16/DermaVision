@@ -1,0 +1,30 @@
+{
+  "image_size": 380,
+  "num_classes": 19,
+  "classes": [
+    "Acne and Rosacea Photos",
+    "Actinic Keratosis Basal Cell Carcinoma and other Malignant Lesions",
+    "Atopic Dermatitis Photos",
+    "Cellulitis Impetigo and other Bacterial Infections",
+    "Eczema Photos",
+    "Exanthems and Drug Eruptions",
+    "Herpes HPV and other STDs Photos",
+    "Light Diseases and Disorders of Pigmentation",
+    "Lupus and other Connective Tissue diseases",
+    "Melanoma Skin Cancer Nevi and Moles",
+    "Poison Ivy Photos and other Contact Dermatitis",
+    "Psoriasis pictures Lichen Planus and related diseases",
+    "Seborrheic Keratoses and other Benign Tumors",
+    "Systemic Disease",
+    "Tinea Ringworm Candidiasis and other Fungal Infections",
+    "Urticaria Hives",
+    "Vascular Tumors",
+    "Vasculitis Photos",
+    "Warts Molluscum and other Viral Infections"
+  ],
+  "temperature": 0.6975,
+  "confidence_threshold": 0.4,
+  "uncertainty_threshold": 0.75,
+  "model_path": "/content/skin_dataset/models/efficientnet_b4_exp2_best.pth",
+  "medical_kb_path": "/content/skin_dataset/models/medical_knowledge_base.json"
+}

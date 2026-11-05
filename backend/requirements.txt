@@ -1,0 +1,19 @@
+# DermaVision backend dependencies
+# Install with:  pip install -r backend/requirements.txt
+#
+# GPU note: this installs the default PyPI build of torch/torchvision, which
+# works on both CPU and GPU (backend.py auto-detects with torch.cuda.is_available()).
+# If you do NOT have an NVIDIA GPU and want a much smaller/faster install, use
+# the official CPU-only wheels instead:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r backend/requirements.txt   (then re-run without torch/torchvision lines,
+#                                               or just let pip skip the already-installed ones)
+
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9      # required by FastAPI to parse the uploaded file
+pillow>=10.0
+opencv-python-headless>=4.9  # cv2, used for blur/brightness checks and Grad-CAM colour mapping
+numpy>=1.26
+torch>=2.2
+torchvision>=0.17
