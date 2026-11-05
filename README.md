@@ -122,7 +122,7 @@ Analysis images are sent to your own backend for prediction and are not stored. 
 
 ## Author
 
-Your name - your course / institution
+P. Ganishka 
 
 ## Licence
 
