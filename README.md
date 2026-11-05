@@ -9,7 +9,8 @@ An educational web app that analyzes a skin photo with an AI model and shows a p
 - Upload or capture a skin photo and get a model prediction with a Grad-CAM heatmap showing which areas influenced it.
 - Results are shown with a strict reliability rule: below 60% confidence the app shows "Inconclusive result" instead of naming a condition, and it never labels any result "high confidence".
 - Nine pages: Home, Analyze, Assessment (skin-type quiz), Routine, Ingredients (interaction checker), Progress, History, Learn, and Model Metrics.
-- Extra tools: printable report (PDF via the browser), photo-quality tips, crop tool, compare two photos, export/import history, first-visit consent screen, "Ask about this condition" (answers only from the built-in knowledge base), find-a-dermatologist link, installable app shell (PWA), and English/Hindi interface (Telugu in progress).
+- Extra tools: printable report (PDF via the browser), photo-quality tips, crop tool, compare two photos, export/import history, first-visit consent screen, "Ask about this condition" (answers only from the built-in knowledge base), find-a-dermatologist link, and an installable app shell (PWA).
+- English, Hindi, and Telugu interface (generated routine steps, ingredient data, and condition information are English only).
 - History and profile data stay in your browser (localStorage). Images are not stored on the server.
 
 ## Quick start
@@ -94,8 +95,9 @@ Known limitations:
 - The original training split may contain duplicate images across train and test, so the numbers above may be optimistic.
 - The dataset has no patient IDs, and its exact source and licence are unverified.
 - Results can change with image size and quality.
-- The Hindi (and Telugu) text needs review by a native speaker.
+- Hindi and Telugu translations are machine-assisted and need review by native speakers.
 - The photo-quality and not-skin checks are rough heuristics, not validated.
+- Physical camera capture, a full offline session, and native PDF saving were not tested.
 
 ## Tech stack
 
@@ -107,7 +109,7 @@ Known limitations:
 
 ```
 backend/      FastAPI app (api.py) and model code (backend.py)
-frontend/     React app (src/pages, src/components, src/utils, src/data)
+frontend/     React app (src/pages, src/components, src/utils, src/data, src/i18n)
 models/       model_config.json, medical_knowledge_base.json, model weights (weights not in this repo)
 training/     data audit, split manifest, training and evaluation scripts, Colab notebook
 ```
@@ -122,7 +124,7 @@ Analysis images are sent to your own backend for prediction and are not stored. 
 
 ## Author
 
-P. Ganishka 
+Your name - your course / institution
 
 ## Licence
 
